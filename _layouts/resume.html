@@ -61,7 +61,36 @@
         <header class="section-header">
           <h2>Experience</h2>
         </header>
-
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div
+          class="resume-item"
+          itemscope
+          itemprop="worksFor"
+          itemtype="http://schema.org/Organization"
+        >
+          <h3 class="resume-item-title" itemprop="name">
+            Infuy / Zentility
+          </h3>
+          <h4 class="resume-item-details" itemprop="description">
+            Full Stack Developer &bull; Oct, 2018 &mdash; 2021
+          </h4>
+          <p class="resume-item-copy">
+            Full stack development for the <a href="zentility.com">Zentility</a> platform using the following technologies:
+          </p>
+          <ul class="resume-item-list">
+            <li>Spring Boot</li>
+            <li>Angular</li>
+            <li>Camunda BPMN Engine</li>
+            <li>Google Cloud Kubernetes</li>
+            <li>CI/CD pipelines with Cloud Build</li>
+          </ul>
+          <p class="resume-item-copy">
+            If you're going to copy paste markup, or edit it, just be sure to
+            keep the appropriate classnames on your new elements for styling
+            purposes.
+          </p>
+        </div>
+        <!-- end of resume-item -->
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div
           class="resume-item"
@@ -281,7 +310,8 @@
         <div class="resume-item">
           <h4 class="resume-item-details">CI/CD Pipelines</h4>
           <p class="resume-item-copy">
-            I have worked with github actions, and Azure and Google Cloud kubernetes services
+            I have worked with github actions, and Azure and Google Cloud
+            kubernetes services
           </p>
         </div>
       </section>
@@ -390,7 +420,6 @@
           Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me
           on <a href="https://github.com/jglovier/resume-template">GitHub</a>.
         </p>
-     
       </footer>
     </div>
     {% include google-analytics.html %}
